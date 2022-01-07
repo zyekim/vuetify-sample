@@ -1,4 +1,4 @@
-# movieapp_vue
+# vuetify-sample
 
 ## Project setup
 ```
