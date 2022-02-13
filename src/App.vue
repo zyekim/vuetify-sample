@@ -10,8 +10,17 @@ import './scss/overrides.scss'
 
       }
     },
+    methods:{
+      kakaoLogin(){
+        const param = {
+          redirectUri : 'http://localhost:8080/'
+        }
+        window.Kaokao.auth.authorize(param)
+      }
+    }
   }
 </script>
+
 <style lang="scss">
 // @import './scss/overrides.scss'
 </style>
